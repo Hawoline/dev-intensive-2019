@@ -23,7 +23,7 @@ class ExampleUnitTest {
 
     @Test
     fun test_instance() {
-        val user = User("1", "John", "Doe")
+        val user = User("1", "Биликто", "Нелтанов")
         val user1 = User("2", "John", "Cena")
         val user2 = User("3")
     }
