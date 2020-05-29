@@ -2,7 +2,7 @@ package ru.skillbranch.devintensive.utils
 
 object Utils {
 
-    fun parseName(fullName: String?) : Pair<String?, String?> {
+    fun parseFullName(fullName: String?) : Pair<String?, String?> {
         val parts: List<String>? = fullName?.split(" ")
 
         val firstName = parts?.getOrNull(0)
